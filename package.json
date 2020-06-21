@@ -1,0 +1,40 @@
+{
+  "name": "github-star-cli",
+  "version": "1.6.2",
+  "description": "Github CLI to run github inside your terminal",
+  "repository": "https://github.com/zahidalidev/github-star-cli",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node postinstall.js"
+  },
+  "author": {
+    "name": "Zahid Ali",
+    "email": "engrzahid612@gmail.com",
+    "url": "https://twitter.com/ZahidAl94440892"
+  },
+  "license": "MIT",
+  "keywords": [
+    "github-star-cli",
+    "github-cli",
+    "create-repo",
+    "cli",
+    "push repo",
+    "clone-repo",
+    "get all repos",
+    "node.js automation"
+  ],
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.2.0",
+    "mongoose": "^5.9.19",
+    "node-cmd": "^3.0.0",
+    "shelljs": "^0.8.4",
+    "simple-git": "^2.7.0"
+  }
+}
